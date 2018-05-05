@@ -6,9 +6,9 @@
 !.gitignore
 auto.bat
 g1.bat
-.prefs
-.classpath
-.project
-.springBeans
+*.prefs
+*.classpath
+*.project
+*.springBeans
 *.zip
 /ZZZ*
