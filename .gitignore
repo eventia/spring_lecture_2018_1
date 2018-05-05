@@ -1,0 +1,14 @@
+/Servers
+/RemoteSystemsTempFiles
+/.metadata
+/.recommenders/
+
+!.gitignore
+auto.bat
+g1.bat
+.prefs
+.classpath
+.project
+.springBeans
+*.zip
+/ZZZ*
