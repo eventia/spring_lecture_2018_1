@@ -27,7 +27,15 @@
 		
 	<servlet-mapping>
 		<servlet-name>appServlet</servlet-name>
-		<url-pattern>/</url-pattern>
+		<!-- default servlet / -->
+		<!-- 모든 요청(jsp포함) /* -->
+		<!-- 특정확장자(do)인 서블릿 *.do / -->
+	<!-- 
+		https://.../view/1
+		https://.../view.do?idx=1
+	-->
+
+ 	<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
 </web-app>
